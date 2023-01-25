@@ -25,6 +25,9 @@ const ProjectSchema = new mongoose.Schema({
             }
         }
     ],
+    resulturl: {
+        type: String
+    },
     date: {
         type: Date,
         default: Date.now
